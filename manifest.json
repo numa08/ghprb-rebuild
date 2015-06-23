@@ -1,0 +1,11 @@
+{
+  "manifest_version" : 2,
+  "name" : "ghprb-rebuild",
+  "version" : "0.1",
+  "content_scripts" : [
+  {
+    "matches" : ["https://github.com/*/pull/*"],
+    "js" : ["jquery-2.1.4.min.js", "ghprb-rebuild.js"]
+  }
+  ]
+}
